@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B92FD3DA2B55173600C6CCF3 /* BrevisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92FD3D92B55173600C6CCF3 /* BrevisApp.swift */; };
+		B92FD3DE2B55173700C6CCF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92FD3DD2B55173700C6CCF3 /* Assets.xcassets */; };
+		B92FD3E22B55173700C6CCF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92FD3E12B55173700C6CCF3 /* Preview Assets.xcassets */; };
+		B92FD3ED2B551AE000C6CCF3 /* HotkeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92FD3EC2B551AE000C6CCF3 /* HotkeyModel.swift */; };
+		B92FD3EF2B551C8C00C6CCF3 /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92FD3EE2B551C8C00C6CCF3 /* Modifier.swift */; };
+		B92FD3F12B555A9A00C6CCF3 /* HotkeyCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92FD3F02B555A9A00C6CCF3 /* HotkeyCategoryModel.swift */; };
+		B92FD3F32B555F8700C6CCF3 /* HotkeyCategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92FD3F22B555F8700C6CCF3 /* HotkeyCategoryViewModel.swift */; };
+		B92FD3F62B5567AF00C6CCF3 /* MainHotkeysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92FD3F52B5567AF00C6CCF3 /* MainHotkeysView.swift */; };
+		B92FD3F82B556CB500C6CCF3 /* HotkeySectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92FD3F72B556CB500C6CCF3 /* HotkeySectionView.swift */; };
+		B92FD3FA2B55767C00C6CCF3 /* HotkeyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92FD3F92B55767C00C6CCF3 /* HotkeyRow.swift */; };
+		B92FD3FC2B5596A800C6CCF3 /* KeySymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92FD3FB2B5596A800C6CCF3 /* KeySymbolView.swift */; };
+		B92FD3FE2B55B11F00C6CCF3 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92FD3FD2B55B11F00C6CCF3 /* Theme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B92FD3D62B55173600C6CCF3 /* Brevis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brevis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B92FD3D92B55173600C6CCF3 /* BrevisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrevisApp.swift; sourceTree = "<group>"; };
+		B92FD3DD2B55173700C6CCF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B92FD3DF2B55173700C6CCF3 /* Brevis.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Brevis.entitlements; sourceTree = "<group>"; };
+		B92FD3E12B55173700C6CCF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B92FD3EC2B551AE000C6CCF3 /* HotkeyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyModel.swift; sourceTree = "<group>"; };
+		B92FD3EE2B551C8C00C6CCF3 /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
+		B92FD3F02B555A9A00C6CCF3 /* HotkeyCategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyCategoryModel.swift; sourceTree = "<group>"; };
+		B92FD3F22B555F8700C6CCF3 /* HotkeyCategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyCategoryViewModel.swift; sourceTree = "<group>"; };
+		B92FD3F52B5567AF00C6CCF3 /* MainHotkeysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHotkeysView.swift; sourceTree = "<group>"; };
+		B92FD3F72B556CB500C6CCF3 /* HotkeySectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeySectionView.swift; sourceTree = "<group>"; };
+		B92FD3F92B55767C00C6CCF3 /* HotkeyRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyRow.swift; sourceTree = "<group>"; };
+		B92FD3FB2B5596A800C6CCF3 /* KeySymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeySymbolView.swift; sourceTree = "<group>"; };
+		B92FD3FD2B55B11F00C6CCF3 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B92FD3D32B55173600C6CCF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B92FD3CD2B55173600C6CCF3 = {
+			isa = PBXGroup;
+			children = (
+				B92FD3D82B55173600C6CCF3 /* Brevis */,
+				B92FD3D72B55173600C6CCF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B92FD3D72B55173600C6CCF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B92FD3D62B55173600C6CCF3 /* Brevis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B92FD3D82B55173600C6CCF3 /* Brevis */ = {
+			isa = PBXGroup;
+			children = (
+				B92FD3EB2B551AB400C6CCF3 /* Settings */,
+				B92FD3EA2B551AA900C6CCF3 /* View */,
+				B92FD3E92B551AA000C6CCF3 /* ViewModel */,
+				B92FD3D92B55173600C6CCF3 /* BrevisApp.swift */,
+				B92FD3E82B551A8200C6CCF3 /* Model */,
+				B92FD3DD2B55173700C6CCF3 /* Assets.xcassets */,
+				B92FD3DF2B55173700C6CCF3 /* Brevis.entitlements */,
+				B92FD3E02B55173700C6CCF3 /* Preview Content */,
+			);
+			path = Brevis;
+			sourceTree = "<group>";
+		};
+		B92FD3E02B55173700C6CCF3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B92FD3E12B55173700C6CCF3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B92FD3E82B551A8200C6CCF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B92FD3EC2B551AE000C6CCF3 /* HotkeyModel.swift */,
+				B92FD3EE2B551C8C00C6CCF3 /* Modifier.swift */,
+				B92FD3F02B555A9A00C6CCF3 /* HotkeyCategoryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B92FD3E92B551AA000C6CCF3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B92FD3F22B555F8700C6CCF3 /* HotkeyCategoryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B92FD3EA2B551AA900C6CCF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B92FD3F52B5567AF00C6CCF3 /* MainHotkeysView.swift */,
+				B92FD3F72B556CB500C6CCF3 /* HotkeySectionView.swift */,
+				B92FD3F92B55767C00C6CCF3 /* HotkeyRow.swift */,
+				B92FD3FB2B5596A800C6CCF3 /* KeySymbolView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B92FD3EB2B551AB400C6CCF3 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B92FD3FD2B55B11F00C6CCF3 /* Theme.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B92FD3D52B55173600C6CCF3 /* Brevis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B92FD3E52B55173700C6CCF3 /* Build configuration list for PBXNativeTarget "Brevis" */;
+			buildPhases = (
+				B92FD3D22B55173600C6CCF3 /* Sources */,
+				B92FD3D32B55173600C6CCF3 /* Frameworks */,
+				B92FD3D42B55173600C6CCF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brevis;
+			productName = Brevis;
+			productReference = B92FD3D62B55173600C6CCF3 /* Brevis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B92FD3CE2B55173600C6CCF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B92FD3D52B55173600C6CCF3 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = B92FD3D12B55173600C6CCF3 /* Build configuration list for PBXProject "Brevis" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B92FD3CD2B55173600C6CCF3;
+			productRefGroup = B92FD3D72B55173600C6CCF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B92FD3D52B55173600C6CCF3 /* Brevis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B92FD3D42B55173600C6CCF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B92FD3E22B55173700C6CCF3 /* Preview Assets.xcassets in Resources */,
+				B92FD3DE2B55173700C6CCF3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B92FD3D22B55173600C6CCF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B92FD3EF2B551C8C00C6CCF3 /* Modifier.swift in Sources */,
+				B92FD3ED2B551AE000C6CCF3 /* HotkeyModel.swift in Sources */,
+				B92FD3F32B555F8700C6CCF3 /* HotkeyCategoryViewModel.swift in Sources */,
+				B92FD3F62B5567AF00C6CCF3 /* MainHotkeysView.swift in Sources */,
+				B92FD3FA2B55767C00C6CCF3 /* HotkeyRow.swift in Sources */,
+				B92FD3DA2B55173600C6CCF3 /* BrevisApp.swift in Sources */,
+				B92FD3F82B556CB500C6CCF3 /* HotkeySectionView.swift in Sources */,
+				B92FD3FE2B55B11F00C6CCF3 /* Theme.swift in Sources */,
+				B92FD3FC2B5596A800C6CCF3 /* KeySymbolView.swift in Sources */,
+				B92FD3F12B555A9A00C6CCF3 /* HotkeyCategoryModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B92FD3E32B55173700C6CCF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B92FD3E42B55173700C6CCF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B92FD3E62B55173700C6CCF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Brevis/Brevis.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Brevis/Preview Content\"";
+				DEVELOPMENT_TEAM = DHVXX6V9MZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ronerez.Brevis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B92FD3E72B55173700C6CCF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Brevis/Brevis.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Brevis/Preview Content\"";
+				DEVELOPMENT_TEAM = DHVXX6V9MZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ronerez.Brevis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B92FD3D12B55173600C6CCF3 /* Build configuration list for PBXProject "Brevis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B92FD3E32B55173700C6CCF3 /* Debug */,
+				B92FD3E42B55173700C6CCF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B92FD3E52B55173700C6CCF3 /* Build configuration list for PBXNativeTarget "Brevis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B92FD3E62B55173700C6CCF3 /* Debug */,
+				B92FD3E72B55173700C6CCF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B92FD3CE2B55173600C6CCF3 /* Project object */;
+}
